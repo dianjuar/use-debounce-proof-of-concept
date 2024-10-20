@@ -1,26 +1,33 @@
 import React from "react";
 
-import logo from "./logo.svg";
+import { ValueDebouncingExample } from "./useDebounceExamples/value";
+import { CallbackDebounceExample } from "./useDebounceExamples/callback";
+import { ThrottledCallback } from "./useDebounceExamples/throttled-callback";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>
+        <code>useDebounce</code> examples
+      </h1>
+
+      <div>
+        <div className="center">
+          <h2>Value Debouncing</h2>
+          <ValueDebouncingExample />
+        </div>
+        <div className="center">
+          <h2>Callback Debouncing</h2>
+          <CallbackDebounceExample />
+        </div>
+        <div className="center">
+          <h2>Scroll to see the throttled callback in action</h2>
+          <ThrottledCallback />
+        </div>
+      </div>
+    </>
   );
 }
 
