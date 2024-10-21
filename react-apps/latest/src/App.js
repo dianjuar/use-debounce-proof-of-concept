@@ -10,8 +10,11 @@ function App() {
   return (
     <>
       <h1>
-        <code>useDebounce</code> examples
+        React <code>latest</code>
       </h1>
+      <h2>
+        <code>useDebounce</code> examples
+      </h2>
 
       <div>
         <div className="center">
