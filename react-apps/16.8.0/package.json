@@ -2,6 +2,7 @@
   "name": "react-16.8.0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "use-debounce-proof-of-concept/build-16-8-0",
   "dependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
