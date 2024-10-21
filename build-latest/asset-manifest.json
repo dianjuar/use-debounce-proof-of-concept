@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/use-debounce-proof-of-concept/build-latest/static/css/main.c08f6e06.css",
+    "main.js": "/use-debounce-proof-of-concept/build-latest/static/js/main.f3597b6a.js",
+    "index.html": "/use-debounce-proof-of-concept/build-latest/index.html",
+    "main.c08f6e06.css.map": "/use-debounce-proof-of-concept/build-latest/static/css/main.c08f6e06.css.map",
+    "main.f3597b6a.js.map": "/use-debounce-proof-of-concept/build-latest/static/js/main.f3597b6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c08f6e06.css",
+    "static/js/main.f3597b6a.js"
+  ]
+}
